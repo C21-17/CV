@@ -1,0 +1,219 @@
+
+body { 
+    background-image: url(https://fons.pibig.info/uploads/posts/2023-06/1686078543_fons-pibig-info-p-fon-dlya-podachi-vkontakte-16.png);   
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profText{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profText .avatar {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profText .avatar img{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profText h2{
+	font-size: 1.5em;
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+.profText h2 span{
+	font-size: 0.8em;
+	font-weight: 300;
+	color:#03a9f4;
+	font-family: cursive;
+}
+.container {
+    display: flex;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.title
+
+img {
+    border-radius: 50%;
+}
+
+section {
+    margin: 20px 20px 0px 100px;
+    width: 80%;
+    padding: 10px;
+    position: relative;
+    display: block;
+    text-align:justify;
+    font-family: monospace;
+    font-size: larger;
+    border: 3px solid #e61ea4c9;
+    border-radius: 8px;
+    box-shadow: 5px 0 20px rgba(36, 2, 74, 0.5);
+background: inherit;
+}
+span{
+	color: #c25d25;
+	font-weight: 800;
+}
+
+li{
+	word-spacing: 5px;
+}
+p{
+	text-align: center;
+	font-family: cursive;
+}
+h1{
+	text-align: center;
+	font-size: 38px;
+	font-family: system-ui;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: #802cbf;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 4px;
+    color: chocolate;
+
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.sidebar a {
+  padding: 8px 8px 18px 62px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: relative;
+  border-radius: 10px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.gif{
+	float: right;
+}
+.inf{
+	padding-top: 40px;
+}
+.inf ul{
+	position: relative;
+}
+.inf ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+.inf .icon{
+	display: inline-block;
+	width: 20px;
+	font-size: 18px;
+	color: darkred;
+}
+.skills .box{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns:150px 1fr ;
+	justify-content: center;
+	align-items: center;
+}
+.skills .box h4{
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 500;
+	font-family: Arial black;
+	text-align: center;
+}
+.skills .box .percent{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: #f0f0f0;
+} 
+.skills .box .percent div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9f4;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+ }
+#footer.footer a:hover{
+	color: green;
+}
